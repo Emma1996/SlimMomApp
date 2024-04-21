@@ -3,8 +3,9 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const authApi = createApi({
   reducerPath: 'authApi',
   baseQuery: fetchBaseQuery({
-     baseUrl: 'https://slimmom-oz0k.onrender.com/api',
-   // baseUrl: 'http://localhost:3000',
+    //baseUrl: 'https://slimmom-oz0k.onrender.com/api',
+    baseURL: 'https://slimmomapp.onrender.com/api',
+    // baseUrl: 'http://localhost:3000',
     prepareHeaders: (headers, { getState }) => {
       const token = getState().auth.token;
 

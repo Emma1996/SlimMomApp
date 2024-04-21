@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://slimmom-oz0k.onrender.com';
+//axios.defaults.baseURL = 'https://slimmom-oz0k.onrender.com';
+axios.defaults.baseURL = 'https://slimmomapp.onrender.com';
 //axios.defaults.baseURL = 'http://localhost:3000';
 const END_POINTS = {
   DailyCalorieIntake: '/api/products',

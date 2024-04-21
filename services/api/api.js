@@ -1,5 +1,6 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'https://slimmom-oz0k.onrender.com';
+//axios.defaults.baseURL = 'https://slimmom-oz0k.onrender.com';
+axios.defaults.baseURL = 'https://slimmomapp.onrender.com';
 //axios.defaults.baseUrl = 'http://localhost:3000';
 //const API_KEY = 'e8938dc969e4885481c1163e17374d0f';
 
